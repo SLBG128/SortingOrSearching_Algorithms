@@ -6,7 +6,7 @@ def binary_search(arr,target):
     found = False # Is the target found?
     
     while found == False:
-        mid = (low + high) // 2 # mid-point a.k.a. pointer
+        mid = (low + high) // 2 # mid-point
         if arr[mid] == target: # Check if I find the target
             print(f"Target exist at index {mid}")
             found = True

@@ -1,2 +1,2 @@
-# different_alg
+# E
 This repo store different algorithm by me

@@ -12,3 +12,4 @@ This repo store different algorithms that can sort or search an array <br>
 
 ### Bonus
 1. Is the array sorted? (Although this can be done by python bulit in sorted() )
+2. Number Sorting by inputing numbers

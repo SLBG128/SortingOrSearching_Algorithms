@@ -1,12 +1,5 @@
 #!/usr/bin python3
-
-def is_sorted(arr):            #Check if the array/list is sorted
-    length = range(len(arr) - 1) # get the length of array
-    for i in length:
-        if arr[i] > arr[i+1]:
-            return False
-    else:
-        return True
+from is_sorted import is_sorted # Don't import this if you don't have the file
 
 def bubble_sort(arr):
     length = range(len(arr) - 1)
@@ -29,14 +22,3 @@ def selection_sort(arr):
                 minIdx = j
         arr[i] ,arr[minIdx] = arr[minIdx], arr[i]
     return arr
-
-
-def main():
-    arr = [2,5,8,2,6,6,12,22,17,19] #test data
-    bsort = bubble_sort(arr)
-    print(bsort)
-    ssort = selection_sort(arr)
-    print(ssort)
-
-if __name__ == "__main__":
-    main()

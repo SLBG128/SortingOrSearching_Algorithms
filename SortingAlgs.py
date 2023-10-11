@@ -23,8 +23,8 @@ def bubble_sort(arr):
 
 def selection_sort(arr):
     for i in range(len(arr)):
+        minIdx = i
         for j in range(i, len(arr)):
-            minIdx = i
             if arr[minIdx] > arr[j]:
                 minIdx = j
         arr[i] ,arr[minIdx] = arr[minIdx], arr[i]

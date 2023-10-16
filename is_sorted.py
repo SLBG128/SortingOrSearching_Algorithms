@@ -1,4 +1,3 @@
-#!/usr/bin python3
 # This function can check if an array is sorted in ascending order
 # Credit: Him/SLBG128
 

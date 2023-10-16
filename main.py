@@ -17,11 +17,11 @@ def main():
     target = 18
     idx_b = binary_search(new_arr,target)
     idx_l = linear_search(new_arr,target)
-    if idx_b != False:
+    if idx_b is not False:
         print(f"Binary Search: Target found on index {idx_b}")
     else:
         print(f"Binary Search: {idx_b} does not exist on the array")
-    if idx_l != False:
+    if idx_l is not False:
         print(f"Linear search: Target found on index {idx_l}")
     else:
         print(f"Linear Search: {idx_l} does not exist in the array")
